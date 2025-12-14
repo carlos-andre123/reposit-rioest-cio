@@ -2,7 +2,8 @@
 #include <stdio.h>
 
  int main(){
-    
+
+//declarando as variaveis carta - 1 
  int Carta1 = 1;
  char Estado1 = 'A';
  char Código1[10] = "A01";
@@ -12,7 +13,7 @@
  float PIB1 = 699.28;
  int Número_de_Pontos_Turísticos1 = 50;
 
-
+//declarando as variaveis carta - 2
  int Carta2 = 2;
  char Estado2 = 'B';
  char Código2[10] = "B02";
@@ -21,8 +22,9 @@
  float Área2 = 1200.25;
  float PIB2 = 300.50;
  int Número_de_Pontos_Turísticos2 = 30; 
- 
- printf( " Carta %d\n", Carta1);
+
+ ''imprimindo as variaveis carta - 1
+ printf( " Carta %d\n", Carta1); 
  printf( " Estado : %c\n", Estado1);
  printf( " Codigo : %s\n", Código1);
  printf( " Cidade: %s\n", Cidade1);
@@ -30,7 +32,8 @@
  printf( " Area: %.2f\n", Área1);
  printf( " PIB: %.2f\n", PIB1);
  printf( " Numero de pontos Turisticos: %d\n", Número_de_Pontos_Turísticos1);
- 
+
+ //imprimindo as variaveis carta - 2
  printf( " Carta %d\n", Carta2);
  printf( " Estado : %c\n", Estado2);
  printf( " Codigo : %s\n", Código2);
