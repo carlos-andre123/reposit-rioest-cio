@@ -1,0 +1,112 @@
+#include <stdio.h>
+
+int main()
+{
+    int Carta1 = 1;
+ char Estado1[10] = "Ceará";
+ char Codigo1[10] = "B01";
+ char Cidade1[20] = "Fortaleza";
+ float Populacao1 = 1.800000;
+ float Area1 = 1.800000;
+ float PIB1 = 1.789;
+ int Número_de_Pontos_Turísticos1 = 345;
+ float Densidade_Populacional1 = 1.800000 / 1.800000; //Divida a população da cidade pela sua área
+ float PIB_per_Capita1 = 1.789 / 1.800000; //Divida o PIB da cidade pela sua população
+
+ int Carta2 = 2;
+ char Estado2[10] = "Pernambuco";
+ char Codigo2[10] = "B02";
+ char Cidade2[20] = "Recife";
+ float Populacao2 = 1.700000;
+ float Area2 = 1.850000;
+ float PIB2 = 1.389;
+ int Número_de_Pontos_Turísticos2 = 385;
+ float Densidade_Populacional2 = 1.700000 / 1.850000; //Divida a população da cidade pela sua área
+ float PIB_per_Capita2 = 1.389 / 1.700000; //Divida o PIB da cidade pela sua população
+
+ 
+ 
+    printf("Digite a sua Carta\n");
+    scanf("%d", &Carta1);
+    printf( " A carta é : %d\n", Carta1);
+    
+    printf("Digite o seu Estado\n");
+    scanf("%s", Estado1);
+    printf(" O Estado é: %s\n", Estado1);
+    
+    printf("Digite o seu Codigo\n");
+    scanf("%s", Codigo1);
+    printf(" O Codigo é: %s\n", Codigo1);
+ 
+    printf("Digite a sua Cidade\n");;
+    scanf("%s", Cidade1);
+    printf(" a Cidade é: %s\n", Cidade1);
+    
+    printf("Digite a sua Populaçao\n");
+    scanf("%f", &Populacao1);
+    printf(" A População é: %f\n", Populacao1);
+    
+    printf("Digite a sua Area\n");
+    scanf("%f", &Area1);
+    printf(" A Area é: %f\n", Area1);
+    
+    printf("Digite o PIB\n");
+    scanf("%f", &PIB1);
+    printf(" O PIB é: %f\n", PIB1);
+    
+    printf("Digite o Numero de ponto turisticos\n");
+    scanf("%d", &Número_de_Pontos_Turísticos1);
+    printf(" O Numero de pontos turisticos é: %d\n", Número_de_Pontos_Turísticos1);
+    
+    printf("Digite a população da carta 1\n");
+    scanf("%f", &Populacao1);
+    printf("Digite a area da carta1\n");
+    scanf("%f", &Area1);
+    printf("A densidade populacional é: %.2f\n", Populacao1 / Area1);
+    
+ 
+      printf("Digite a sua Carta\n");
+      scanf("%d", &Carta2);
+      printf( " A carta é : %d\n", Carta2);
+    
+      printf("Digite o seu Estado\n");
+      scanf("%s", Estado2);
+      printf(" O Estado é: %s\n", Estado2);
+    
+      printf("Digite o seu Codigo\n");
+      scanf("%s", Codigo2);
+      printf(" O Codigo é: %s\n", Codigo2);
+ 
+      printf("Digite a sua Cidade\n");;
+      scanf("%s", Cidade2);
+      printf(" a Cidade é: %s\n", Cidade2);
+    
+      printf("Digite a sua Populaçao\n");
+      scanf("%f", &Populacao2);
+      printf(" A População é: %f\n", Populacao2);
+    
+      printf("Digite a sua Area\n");
+      scanf("%f", &Area2);
+      printf(" A Area é: %f\n", Area2);
+    
+      printf("Digite o PIB\n");
+      scanf("%f", &PIB2);
+      printf(" O PIB é: %f\n", PIB2);
+    
+      printf("Digite o Numero de ponto turisticos\n");
+      scanf("%d", &Número_de_Pontos_Turísticos2);
+      printf(" O Numero de pontos turisticos é: %d\n", Número_de_Pontos_Turísticos2);
+      
+      printf("Digite a população da carta 2\n");
+      scanf("%f", &Populacao2);
+      printf("Digite a area da carta2\n");
+      scanf("%f", &Area1);
+      printf("A densidade populacional é: %.2f\n", Populacao2 / Area2);
+      
+      
+      
+      
+ return 0;
+
+ 
+}
