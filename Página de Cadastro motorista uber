@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rapidão Fortaleza - Motoristas Fundadores</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#111;
+    color:white;
+    text-align:center;
+}
+header{
+    background:#d90000;
+    padding:40px 20px;
+}
+h1{
+    margin:0;
+    font-size:32px;
+}
+.section{
+    padding:40px 20px;
+}
+.btn{
+    background:#00c853;
+    padding:15px 30px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+    display:inline-block;
+    margin-top:20px;
+}
+.form-box{
+    background:#222;
+    padding:30px;
+    max-width:400px;
+    margin:0 auto;
+    border-radius:10px;
+}
+input, select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
+footer{
+    background:#000;
+    padding:20px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🚗 RAPIDÃO FORTALEZA</h1>
+<p>Motoristas pagam apenas <strong>15%</strong> de taxa. Para sempre.</p>
+<a class="btn" href="#cadastro">QUERO SER FUNDADOR</a>
+</header>
+
+<div class="section">
+<h2>Quanto você perde pagando 25%?</h2>
+<p>Corrida de R$40:</p>
+<p>Outros apps: R$30</p>
+<p><strong>Rapidão: R$34</strong></p>
+<p>R$3.000 a mais por mês no seu bolso.</p>
+</div>
+
+<div class="section" id="cadastro">
+<h2>Cadastro Motorista Fundador</h2>
+
+<div class="form-box">
+<form action="#" method="post">
+<input type="text" placeholder="Nome Completo" required>
+<input type="tel" placeholder="WhatsApp" required>
+
+<select required>
+<option value="">Tipo de veículo</option>
+<option>Carro</option>
+<option>Moto</option>
+</select>
+
+<select required>
+<option value="">Trabalha com</option>
+<option>Uber</option>
+<option>99</option>
+<option>Outro</option>
+</select>
+
+<input type="submit" class="btn" value="QUERO ENTRAR">
+</form>
+</div>
+</div>
+
+<footer>
+© 2026 Rapidão Brasil - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
