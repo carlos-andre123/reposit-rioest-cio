@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Uma página simples</title>
+    </head>
+    
+<body>
+    
+<h1>Bem-vindo à minha página simples</h1>
+
+<p>Minha pagina HTML</p>
+
+<p><i>Este texto está no formato italico</i></p>
+
+<p>Podemos modificar o conteúdo!</p>
+
+<p>Lista ordenada</p>
+
+<ol>
+    <li> vermelho</li>
+    <li> azul</li>
+</ol>
+
+<p>Lista não ordenada</p>
+
+<ul>
+    <li>azul</li>
+    <li>vermelho</li>
+</ul>
+
+</body>
+</html>
